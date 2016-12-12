@@ -1,0 +1,24 @@
+
+<div>
+
+<script type="text/javascript" src="/site/globals/js/autosuggest.js"></script>
+<script type="text/javascript" src="/site/globals/js/suggestions.js"></script>
+
+<form name="PageBean" id="searchBarForm" method="get" action="http://www.oreillyauto.com/site/co/search.oap" onsubmit="return doSearch();" autocomplete="off" target="_blank">
+	<div id="search" class="inline-form clearfix">
+		<input type="text" name="searchBean.keywordText" maxlength="60" value="Search O'Reilly Auto Parts" id="searchBox" class="form-control" autocomplete="off" style="color: rgb(162, 155, 132);">
+
+		<div id="searchLoading" class="loading load-sm">
+			<div class="spinner"></div>
+		</div>
+		<input type="submit" class="btn btn-green js-site-search-btn" title="search" value="Search">
+	<div class="suggestions" style="visibility: hidden;"></div></div>
+</form>
+
+	<script type="text/javascript">
+		searchBarInit();
+	</script>
+
+
+
+	</div>

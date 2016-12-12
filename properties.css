@@ -1,0 +1,69 @@
+
+element.style
+	{
+	display: block;
+	z-index: 5;
+	cursor: pointer;
+	}
+
+#form
+	{
+	border: 3px solid white;
+	max-width: 100%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 1%;
+	background-image: url("blackmetal.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	word-break: keep-all;
+	display: inline-block;
+	}
+	
+#submit
+	{
+	text-decoration: none;
+	color:#FFFFFF;
+	}
+
+.container
+	{
+	margin: 2%;
+	padding: 1%;
+	}
+
+
+.codes
+	{
+	display: inline-block;
+	width: 50%;
+	height: auto;
+	margin-top: 5%;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: rgba(0,0,0,0.5);
+	}
+
+.codes a
+	{
+	color: cyan;
+	}
+
+#codelist
+	{
+	list-style-type: none;
+	}
+
+.topic-image
+	{
+	height:auto;
+	width: 15%;
+	}
+
+.stores
+	{
+	height: auto;
+	width: 70%;
+	}
